@@ -1,0 +1,81 @@
+.footer{
+    background-color: #002D6A;
+    color: #E1E7EE;
+    font-family: 'Poppins', sans-serif;
+    font-size: small;
+}
+.top-footer{
+    font-size: 12px;
+    border-bottom: 1px solid #5e5e5f;
+}
+.footer-icon{
+    border: 1px solid #117c60;
+    border-radius: 50%;
+    font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+    padding: 7px;
+    text-align: center;
+}
+ul li{
+    text-align: left;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(219, 217, 217);
+    text-align: left;
+}
+.top-footer .address{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top-footer .address p{
+    margin-top: 1rem;
+}
+.recent-news{
+    font-size: 10px;
+    text-align: left;
+}
+.news-detail p{
+    max-width: 300px;
+    width: auto;
+}
+.news-detail{
+    border-bottom: 1px solid #5e5e5f;
+}
+.news-detail span{
+    color: #747474;
+}
+form{
+    position: relative;
+}
+.subscribe-icon{
+    color: #117c60;
+    position: absolute;
+    margin-left: 11.5rem;
+    margin-top: -2.6rem;
+}
+.social-icons .social-link{
+    margin: 10px 7px;
+    border: 1px solid #117c60;
+    border-radius: 50%;
+    background-color: #117c60;
+    padding: 5px;
+    font-size: 25px;
+    width: 30px;
+    height:30px;
+    cursor: pointer;
+}
+.footer-copyright a{
+    font-size: 10px;
+    text-decoration: none;
+    color: rgb(209, 209, 209);
+}
+
+@media (max-width:450px){
+    .news-detail {
+        display: flex;
+        flex-direction: column;
+    }
+}
